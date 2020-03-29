@@ -19,7 +19,7 @@ console.error("h!")
       done()
     })
   })
-  
+
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
